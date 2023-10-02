@@ -1,0 +1,4 @@
+pandas
+googletrans
+tqdm
+requests
