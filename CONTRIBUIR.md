@@ -1,30 +1,31 @@
-# Contribuyendo a corpus-es 📚✨
+# Contribuir a corpus-es 📚✨
 
-¡Gracias por contribuir a `corpus-es`! Este repositorio tiene como objetivo convertirse en un lugar centralizado para conjuntos de datos de NLP en español. Al compartir tu dataset, estás ayudando a toda la comunidad de NLP a crecer. 🚀
+¡Gracias por contribuir a `corpus-es`! Este repositorio tiene como objetivo convertirse en un lugar centralizado para conjuntos de datos de PLN en español y lenguas cercanas (e.g., catalán, quechua). Al compartir tu dataset, estás ayudando a toda la comunidad de PLN a crecer. 🚀
 
 ## Guía paso a paso
 
 ### 1. Haz Fork al Repositorio 🍴
 
-Antes de realizar cualquier cambio, asegúrate de tener una [cuenta en GitHub](https://github.com/). Luego, comienza haciendo fork al repositorio `corpus-es`. Esto creará una copia del repositorio en tu propia cuenta de GitHub, permitiéndote realizar cambios sin afectar el repositorio principal.
+Antes de realizar cualquier cambio, asegúrate de tener una [cuenta en GitHub](https://github.com/). Luego, comienza haciendo fork al repositorio `corpus-es`. Esto creará una copia del repositorio en tu propia cuenta de GitHub, permitiéndote realizar cambios sin modificar el repositorio principal.
 
 ### 2. Decide el Tipo de Conjunto de Datos 🧐
 
 Hay tres categorías principales de conjuntos de datos en `corpus-es`:
 
-- **Conjuntos de datos en español existentes**: Estos son conjuntos de datos que ya existen, y solo hace falta meterlas en la lista de datos. 
+| Tipo de Dataset  | Descripción                                                                                                                                                                                                                                        |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Corpus Existente | Conjuntos de datos que ya existen, simplemente hace falta añadirlos a la lista de corpus. Intenta incluir toda la información que encuentres sobre el corpus.                                                                                      |
+| Corpus Traducido | Conjuntos de datos originalmente en otro idioma y traducidos al español. Se pueden usar herramientas como Google Translate, DeepL, OpenAI, etc. En la carpeta de [scripts](./scripts/) se pueden encontrar ejemplos de scripts para la traducción. |
+| Corpus Original  | Conjuntos de datos creados por ti desde cero. En este caso deberás describir la metodología utilizada y proveer los scripts.                                                                                                                       |
 
-- **Conjuntos de datos traducidos**: Estos conjuntos de datos originalmente estaban en otro idioma y fueron traducidos al español. 
+Si has traducido un corpus o creado uno desde cero, súbelo a https://huggingface.co/hacktoberfest-corpus-es. También te animamos a subir datasets ya existentes que estén en otras plataformas (siempre y cuando la licencia lo permita!). Para subir un dataset al hub, puedes seguir estas [instrucciones](https://huggingface.co/docs/datasets/create_dataset)
 
-- **Conjuntos de datos curados**: Datasets que has creado tu. Al subir un dataset curado, deberias incluir la descripcion de tu metologia. Eso puede ser a traves de un paper o dentro del README.md de tu dataset.
+### 3. Agrega tu Corpus 📂
 
-Asegúrate de haber leído las instrucciones específicas para cada tipo de dataset en la documentación del repositorio para asegurarte de que tu dataset cumpla con los criterios. Tenemos una guia elaborada que se encuentra [aqui](/GUIDE.md)
+1. Clona tu repositorio en tu máquina local. Usa el siguiente comando:
 
-### 3. Agrega Tu Conjunto de Datos 📂
-
-1. Clona tu repositorio tu máquina local. Usa el siguiente comando:
 ```bash
-git clone https://github.com/[Tu-Nombre-de-Usuario]/corpus-es.git
+git clone https://github.com/<tu_nombre_de_usuario>/corpus-es.git
 ```
 
 2. Navega a la carpeta datasets:
@@ -34,39 +35,47 @@ cd datasets
 ```
 
 3. Crea una nueva carpeta para tu dataset. El nombre de la carpeta debe ser descriptivo y relacionado con el contenido o fuente de tu dataset.
+
 ```bash
-mkdir [nombre-de-tu-dataset]
+mkdir <nombre_de_tu_dataset>
 ```
-4. Agrega tu dataset al [csv](./datasets_list.csv)
 
-5. Agrega un archivo README.md en la carpeta de tu dataset. Este debe contener:
+4. Incluye en la carpeta los scripts de creación, limpieza y/o traducción de tu corpus.
 
-- Una breve descripción del dataset.
-- La fuente del dataset y cómo descargarlo.
-- Si es un dataset traducido, menciona el idioma original y el método/herramienta de traducción utilizada. Si usaste un script, incluye el script.
-- Cualquier otra informacion relevante esta bienvenida.
+5. Agrega un archivo `README.md` en la carpeta de tu dataset:
 
-### 4. Envía una Pull Request 🔄
+- Copia la [plantilla](./datasets/nuevo_dataset.md) y rellena la información
+- Incluye una breve descripción del dataset
+- La evaluación del dataset se premiará con puntos extra:
+  - Calcula la distribución perplejidad del dataset
+  - Evalúa los sesgos en el dataset
+- Incluye toda la información que consideres relevante
+
+### 4. Agrega tu corpus a la tabla [datasets.csv](./datasets.csv)
+
+Añade una nueva línea a la tabla y rellena la información correspondiente.
+
+Si usas VS Code, te recomendamos utilizar extensiones como Rainbow CSV o un editor de CSV para falicitar esta tarea.
+
+### 5. Envía una Pull Request 🔄
 
 1. Confirma tus cambios:
 
-Ejemplo:
 ```bash
 git add .
-git commit -m "Añadido [Nombre-de-Tu-Dataset] a la categoría [Tipo-de-Dataset]."
+git commit -m "añadir <nombre_de_tu_dataset> <existente/traducido/original>."
 ```
 
-2. Sube tus cambios: 
+2. Sube tus cambios:
 
 ```bash
 git push
 ```
-3. Crea un  `New Pull Request`. 
 
-4. Proporciona un título descriptivo y un comentario detallado sobre tu conjunto de datos y por qué es una valiosa adición a corpus-es.
+3. Crea una `New Pull Request` con un título descriptivo: **"Añadir corpus existente/traducido/original: NombreDelCorpus"** explicando por qué tu corpus es una valiosa adición a `corpus-es`. ¡Una vez que todo se vea bien, envía tu pull request!
 
-5. ¡Una vez que todo se vea bien, envía tu pull request!
+4. Tu contribución será revisada por el equipo, presta atención a posibles comentarios o sugerencias de cambios.
 
-Tu contribución será revisada por nosotros, y si todo está en orden, se fusionará en el repositorio principal. ¡Gracias nuevamente por ayudar a expandir la colección de corpus-es! 🥳🎉
+5. Una vez todo esté bien, se fusionará en el repositorio principal. ¡Gracias nuevamente por ayudar a expandir la colección de corpus-es! 🥳🎉
 
-Si tienes alguna pregunta, no dudes en abrir un issue o contactarnos.
+Si tienes alguna pregunta, no dudes en abrir un issue o contactarnos en [Discord](https://discord.com/invite/my8w7JUxZR).
