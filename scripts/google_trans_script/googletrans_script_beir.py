@@ -110,7 +110,7 @@ def generate_batches(origin: str, destination: str, columns_for_translation: lis
     for index, row in df.iterrows():
         for column in columns_for_translation:
             content = row[column]
-            if len(content) > 400:
+            if len(content) > 4500:
                 chunks = split_text(content, row["original_id"])
                 for chunk_content, chunk_id in chunks:
                     new_row = row.copy()
