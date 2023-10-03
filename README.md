@@ -1,3 +1,7 @@
+🔥 Open-source corpus ES: https://somosnlp.org/recursos/open-source/datasets 🔥
+
+---
+
 [English below]
 
 # 📚 Corpus de PLN en español
