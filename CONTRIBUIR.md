@@ -10,11 +10,15 @@ Antes de realizar cualquier cambio, asegúrate de tener una [cuenta en GitHub](h
 
 ### 2. Decide el Tipo de Conjunto de Datos 🧐
 
-Hay tres categorías principales de conjuntos de datos en `corpus-es`:
+Puedes aportar cualquier corpus que te parezca interesante para la comunidad siempre y cuando esté relacionado con el español, LATAM o España.
+
+Echa un vistazo a la lista de [issues](https://github.com/somosnlp/corpus-es/issues). Si quieres añadir un corpus que no está en la lista, abre un nuevo issue. Una vez hayas elegido qué corpus vas a añadir, comenta en el issue correspondiente para que todo el mundo sepa que estás trabajando en él y evitar duplicar esfuerzos.
+
+Hay tres tipos de contribuciones a la lista `corpus-es`:
 
 | Tipo de Dataset  | Descripción                                                                                                                                                                                                                                        |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Corpus Existente | Conjuntos de datos que ya existen, simplemente hace falta añadirlos a la lista de corpus. Intenta incluir toda la información que encuentres sobre el corpus.                                                                                      |
+| Corpus Existente | Conjuntos de datos que ya existen, simplemente hace falta añadirlos a la lista de corpus. Intenta incluir toda la información que encuentres sobre el corpus en el README.md.                                                                      |
 | Corpus Traducido | Conjuntos de datos originalmente en otro idioma y traducidos al español. Se pueden usar herramientas como Google Translate, DeepL, OpenAI, etc. En la carpeta de [scripts](./scripts/) se pueden encontrar ejemplos de scripts para la traducción. |
 | Corpus Original  | Conjuntos de datos creados por ti desde cero. En este caso deberás describir la metodología utilizada y proveer los scripts.                                                                                                                       |
 

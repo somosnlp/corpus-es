@@ -10,7 +10,11 @@ Before making any changes, make sure you have a [GitHub account](https://github.
 
 ### 2. Decide on the Dataset Type 🧐
 
-There are three primary categories of datasets in `corpus-es`:
+You can add any dataset you find interesting for the community if it is related to Spanish, LATAM or Spain.
+
+Have a look at the [issues](https://github.com/somosnlp/corpus-es/issues). If the dataset you want to add is not on the list, create a new issue. Once you have decided which dataset to work on, comment on the corresponding issue to let everybody know it's in progress and avoid duplicated efforts.
+
+There are three ways to contribute to the dataset list `corpus-es`:
 
 | Type of Dataset    | Description                                                                                                                                                                                                                               |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
