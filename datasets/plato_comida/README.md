@@ -29,14 +29,14 @@ El ánilisis exploratorio se centra en el texto, para las imagenes tocaría apli
 
 ### Análisis de texto
 
-<img href="nube_de_palabras.png">
+<img src="nube_de_palabras.png">
 En la imagen podemos ver las palabras más frecuentes para el texto, tambien podemos ver un boxplot del texto
-<img href="box_plot.png">
+<img src="box_plot.png">
 Aquí podemos ver como existen palabras muy pequeñas y muy grandes, por lo que recomendamos al usario que se fije en el texto para ver si le sirve el tamaño del texto
-<img href="distribution.png">
+<img src="distribution.png">
 En el siguiente histograma podemos ver la distribución de los tamaños de los textos, podemos ver que la mayoría de textos tienen un tamaño menor a 78 caracteres, el 75% del dataset tiene un tamaño de 31 caracteres.
 
 ### Análisis de imagenes
 Se recomienda analizar por medio de redes neuronales, para sacar más provecho y verificar la correspondecia entre el prompt y la imagen. (Una idea es hacer esto con CLIP)
 
-<img href="dishes_prompt.png">
+<img src="dishes_prompt.png">
