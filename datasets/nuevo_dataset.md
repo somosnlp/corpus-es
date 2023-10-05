@@ -34,21 +34,7 @@
 - `translation_script`:
 ---
 
-# < Nombre del Dataset >
-
-Descripción...
-
-## Evaluación del dataset
-
-### Distribución de perplejidad
-
-### Evaluación de sesgos
-
-### Other
-
----
-
-# Cómo rellenar esta plantilla
+## Cómo rellenar esta plantilla
 
 Si el corpus ya está subido al hub de Hugging Face, puedes reutilizar la misma Dataset Card (README.md) y añadir este encabezado YAML al principio del documento.
 

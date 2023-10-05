@@ -34,20 +34,6 @@
 - `translation_script`:
 ---
 
-# < Dataset Name >
-
-Description...
-
-## Metrics
-
-### Perplexity Distribution
-
-### Bias evaluation
-
-### Other
-
----
-
 ## How to fill the template
 
 If the dataset is already uploaded to the Hugging Face hub, you can use the same Dataset Card (README.md) and simply add the YAML header at the beginning.
