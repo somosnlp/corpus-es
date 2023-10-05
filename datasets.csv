@@ -1,4 +1,4 @@
-nombre,tareas,dominio,idioma,pais,página_web,github,paper,hf_dataset_name,contributor_name
+nombre,tareas,dominio,idioma,pais,página_web,github,paper,hf_dataset_name,contributor
 BasCrawl,modelado del lenguaje,general,euskera,España,https://doi.org/10.5281/zenodo.7313092,,,,David Arias
 Biomedical Spanish CBOW Word Embeddings in Floret,modelado del lenguaje,clinico,español,España,https://doi.org/10.5281/zenodo.7314041,https://arxiv.org/abs/2109.07765,,,David Arias
 CSIC Spanish Corpus,modelado del lenguaje,academico,español,España,https://doi.org/10.5281/zenodo.7313126,,,,David Arias
