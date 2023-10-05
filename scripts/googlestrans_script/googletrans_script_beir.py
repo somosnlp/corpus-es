@@ -1,3 +1,8 @@
+"""
+Script to translate a dataset for free using Google Translate.
+
+Thank you vtwoptwo for sharing this script with the community!
+"""
 import argparse
 import os
 import time
