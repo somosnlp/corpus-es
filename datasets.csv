@@ -1,19 +1,19 @@
 nombre,tareas,dominio,idioma,pais,página_web,github,paper,hf_dataset_name,contributor_name
 BasCrawl,modelado del lenguaje,general,euskera,España,https://doi.org/10.5281/zenodo.7313092,,,,David Arias
-Biomedical Spanish CBOW Word Embeddings in Floret,"modelado del lenguaje,CBOW (Continuous Bag Of Words)",clinico,español,España,https://doi.org/10.5281/zenodo.7314041,https://arxiv.org/abs/2109.07765,,,David Arias
+Biomedical Spanish CBOW Word Embeddings in Floret,modelado del lenguaje,clinico,español,España,https://doi.org/10.5281/zenodo.7314041,https://arxiv.org/abs/2109.07765,,,David Arias
 CSIC Spanish Corpus,modelado del lenguaje,academico,español,España,https://doi.org/10.5281/zenodo.7313126,,,,David Arias
-Catalonia Independence Corpus,clasificación de sentimientos,rrss,"catalán, español",España,,https://github.com/ixa-ehu/catalonia-independence-corpus,https://www.aclweb.org/anthology/2020.lrec-1.171/,catalonia_independence,Lewis Tunstall @Hugging Face
+Catalonia Independence Corpus,clasificación de sentimientos,rrss,catalán - español,España,,https://github.com/ixa-ehu/catalonia-independence-corpus,https://www.aclweb.org/anthology/2020.lrec-1.171/,catalonia_independence,Lewis Tunstall @Hugging Face
 HEAD-QA,preguntas de opción múltiple,clinico,español,España,https://aghie.github.io/head-qa/,https://github.com/aghie/head-qa,https://www.aclweb.org/anthology/P19-1092/,head_qa,María Grandury
 InfoLibros Corpus,modelado del lenguaje,literatura,español,Varios,https://doi.org/10.5281/zenodo.7313105,,,,David Arias
-Large Spanish Corpus,"modelado del lenguaje,pre-entrenamiento",general,español,Varios,,https://github.com/josecannete/spanish-corpora,,large_spanish_corpus,Lewis Tunstall @Hugging Face
+Large Spanish Corpus,modelado del lenguaje,general,español,Varios,,https://github.com/josecannete/spanish-corpora,,large_spanish_corpus,Lewis Tunstall @Hugging Face
 Mucho Cine,clasificación de sentimientos,general,español,Varios,http://www.lsi.us.es/~fermin/index.php/Datasets,,,muchocine,Nick Doiron
-Spanish Billion Words,"modelado del lenguaje,pre-entrenamiento",general,español,Varios,https://crscardellino.github.io/SBWCE/,,,spanish_billion_words,María Grandury
+Spanish Billion Words,modelado del lenguaje,general,español,Varios,https://crscardellino.github.io/SBWCE/,,,spanish_billion_words,María Grandury
 Spanish Biomedical Crawled Corpus,modelado del lenguaje,clinico,español,España,https://doi.org/10.5281/zenodo.5513237,,https://arxiv.org/abs/2109.07765,,David Arias
-Spanish CBOW Word Embeddings in FastText,"modelado del lenguaje,FastText",general,español,España,https://doi.org/10.5281/zenodo.5044988,,http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6405,,David Arias
-Spanish CBOW Word Embeddings in Floret,"modelado del lenguaje,CBOW (Continuous Bag Of Words)",general,español,España,https://doi.org/10.5281/zenodo.7314098,,,,David Arias
+Spanish CBOW Word Embeddings in FastText,modelado del lenguaje,general,español,España,https://doi.org/10.5281/zenodo.5044988,,http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6405,,David Arias
+Spanish CBOW Word Embeddings in Floret,modelado del lenguaje,general,español,España,https://doi.org/10.5281/zenodo.7314098,,,,David Arias
 Spanish Legal Domain Corpora,modelado del lenguaje,legal,español,España,https://doi.org/10.5281/zenodo.5495529,https://github.com/PlanTL-GOB-ES/lm-legal-es,https://arxiv.org/abs/2110.12201,,David Arias
 Spanish Legal Domain Word & Sub-Word Embeddings,modelado del lenguaje,legal,español,España,https://doi.org/10.5281/zenodo.5036147,https://github.com/PlanTL-GOB-ES/lm-legal-es,https://arxiv.org/abs/2110.12201,,David Arias
-Spanish Skip-Gram Word Embeddings in FastText,"modelado del lenguaje,FastText",general,español,España,https://doi.org/10.5281/zenodo.5046525,,http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6405,,David Arias
-TDX Thesis Spanish Corpus,modelado del lenguaje,academico,"catalán, español",España,https://doi.org/10.5281/zenodo.7313149,,,,David Arias
-WikiCorpus,"modelado del lenguaje,POS (Part of Speech)",general,"catalán, español, inglés",Varios,https://www.cs.upc.edu/~nlp/wikicorpus/,,https://www.cs.upc.edu/~nlp/papers/reese10.pdf,wikicorpus,Albert Villanova @Hugging Face
+Spanish Skip-Gram Word Embeddings in FastText,modelado del lenguaje,general,español,España,https://doi.org/10.5281/zenodo.5046525,,http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6405,,David Arias
+TDX Thesis Spanish Corpus,modelado del lenguaje,academico,catalán - español,España,https://doi.org/10.5281/zenodo.7313149,,,,David Arias
+WikiCorpus,modelado del lenguaje / POS (Part of Speech),general,catalán - español - inglés,Varios,https://www.cs.upc.edu/~nlp/wikicorpus/,,https://www.cs.upc.edu/~nlp/papers/reese10.pdf,wikicorpus,Albert Villanova @Hugging Face
 eHealth-KD,reconocimiento de entidades nombradas (NER),clinico,es,España,https://knowledge-learning.github.io/ehealthkd-2020/,https://github.com/knowledge-learning/ehealthkd-2020,http://ceur-ws.org/Vol-2664/eHealth-KD_overview.pdf,ehealth_kd,María Grandury
