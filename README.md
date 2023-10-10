@@ -1,4 +1,4 @@
-🔥 Open-source corpus ES: https://somosnlp.org/recursos/open-source/datasets 🔥
+🔥 Open-source corpus ES: https://somosnlp.org/recursos/datasets 🔥
 
 ---
 
