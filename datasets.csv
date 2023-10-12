@@ -17,3 +17,4 @@ Spanish Skip-Gram Word Embeddings in FastText,modelado del lenguaje,general,espa
 TDX Thesis Spanish Corpus,modelado del lenguaje,academico,catalán - español,España,https://doi.org/10.5281/zenodo.7313149,,,,David Arias
 WikiCorpus,modelado del lenguaje / POS (Part of Speech),general,catalán - español - inglés,Varios,https://www.cs.upc.edu/~nlp/wikicorpus/,,https://www.cs.upc.edu/~nlp/papers/reese10.pdf,wikicorpus,Albert Villanova @Hugging Face
 eHealth-KD,reconocimiento de entidades nombradas (NER),clinico,es,España,https://knowledge-learning.github.io/ehealthkd-2020/,https://github.com/knowledge-learning/ehealthkd-2020,http://ceur-ws.org/Vol-2664/eHealth-KD_overview.pdf,ehealth_kd,María Grandury
+Spanish Dish title,Imagen a texto,general,español,Varios,https://huggingface.co/datasets/hacktoberfest-corpus-es/spanish_dish_title,,,,Fredy Orozco
